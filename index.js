@@ -30,7 +30,7 @@ function displayResults(responseJson) {
   function getYouTubeVideos(query, maxResults=10) {
     const params = {
       key: apiKey,
-      q: query,
+      stateCode: query,
       maxResults,
     };
     const queryString = formatQueryParams(params)
