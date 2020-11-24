@@ -27,7 +27,7 @@ function displayResults(responseJson) {
     $('#results').removeClass('hidden');
   }
 
-  function getYouTubeVideos(query, maxResults=10) {
+  function getParks(query, maxResults=10) {
     const params = {
       key: apiKey,
       stateCode: query,
