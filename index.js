@@ -56,7 +56,7 @@ function displayResults(responseJson) {
       event.preventDefault();
       const searchTerm = $('#js-search-state').val();
       const maxResults = $('#js-max-results').val();
-      getYouTubeVideos(searchTerm, maxResults);
+      getParks(searchTerm, maxResults);
     });
   }
   
